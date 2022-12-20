@@ -9,6 +9,5 @@ public class ForTest2 {
             System.out.println("y : " + y);
             y = y - 2;
         }
-
     }
 }

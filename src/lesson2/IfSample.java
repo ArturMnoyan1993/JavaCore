@@ -6,15 +6,15 @@ public class IfSample {
         x = 2;
         y = x * 30; //y = 60
         z = x * y; //z = 120
-        if (y < z) { // true
+        if (y < z) {
             System.out.println(x < z);
-        } // եթե փակագծերում գրենք 120 մեծ է 2 կբերի գրվածը, եթե folse չէ
-        x = 2 * 60; // true
+        } // true
+        x = 2 * 60;
         if (x == z) {
             System.out.println(x == z);
-        }
-        if (y > z) {// false
+        } //true
+        if (y > z) {
             System.out.println(y > z);
-        }
+        } //false
     }
 }
