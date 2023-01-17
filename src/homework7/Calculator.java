@@ -23,7 +23,7 @@ public class Calculator {
         } else {
             System.out.println("թիվը 0-ի չի կարող բաժանվել");
         }
-        return 0;
+        return -1;
     }
 
     double multiply() {
