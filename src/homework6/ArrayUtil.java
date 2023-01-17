@@ -1,7 +1,7 @@
 package homework6;
 
 public class ArrayUtil {
-    int[] array = new int[10];
+    int[] array = new int [10];
 
     void maxOfArray(int[] array) {
         int max = this.array[0];
